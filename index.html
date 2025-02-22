@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Personal Image Gallery</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1 id="headerTitle">A LOOK BACK :)<img src="https://i.pinimg.com/564x/8b/2c/11/8b2c116f59207f224d2ebc21827e28b4.jpg" alt=""></h1>
+
+    <!-- Image Gallery -->
+    <div class="imgGallery">
+        <div class="gallery-item" data-index="1"><img src="images/image1.jpg" alt=""></div>
+        <div class="gallery-item" data-index="2"><img src="images/image2.jpg" alt=""></div>
+        <div class="gallery-item" data-index="3"><img src="images/image3.jpg" alt=""></div>
+        <div class="gallery-item" data-index="4"><img src="images/image4.jpg" alt=""></div>
+        <div class="gallery-item" data-index="5"><img src="images/image5.jpg" alt=""></div>
+        <div class="gallery-item" data-index="6"><img src="images/image6.jpg" alt=""></div>
+        <div class="gallery-item" data-index="7"><img src="images/image7.jpg" alt=""></div>
+        <div class="gallery-item" data-index="8"><img src="images/image8.jpg" alt=""></div>
+        <div class="gallery-item" data-index="9"><img src="images/image9.jpg" alt=""></div>
+        <div class="gallery-item" data-index="10"><img src="images/image10.jpg" alt=""></div>
+        <div class="gallery-item" data-index="11"><img src="images/image11.jpg" alt=""></div>
+        <div class="gallery-item" data-index="12"><img src="images/image12.jpg" alt=""></div>
+    </div>
+
+    <div id="lightbox">
+        <div id="lightboxContent">
+            <!-- Previous image button -->
+            <button id="prevImage">❮</button>
+            
+            <!-- Lightbox image -->
+            <img id="lightboxImage" src="" alt="Lightbox Image">
+            
+            <!-- Next image button with cross symbol -->
+            <button id="nextImage">❯</button>
+    
+            <!-- Close button -->
+            <button id="closeLightbox">✖</button>
+        </div>
+    </div>
+    
+
+    <script src="index.js"></script>
+</body>
+</html>
